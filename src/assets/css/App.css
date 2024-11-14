@@ -406,8 +406,6 @@ height: 250px;
     gap: 2rem;
     list-style: none;
     margin: auto;
-    display: inline-flex;
-    padding-left: 367px;
   }
   ul li {
     display: flex;
