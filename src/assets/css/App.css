@@ -204,7 +204,7 @@ height: 250px;
   flex-direction: column;
 
  }
-       .right-i{
+       .right-i ul{
            max-width:428px;
    }
    @media (max-width: 390px) {
