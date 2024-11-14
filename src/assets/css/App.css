@@ -199,9 +199,11 @@ height: 250px;
     max-width: 420px;
     height: 400px;
   }
-  .left-p p{
-    margin: 10px -238px 10px 13px;
-  }
+.footer-container{
+  max-width: 428px;
+  flex-direction: column;
+
+ }
    }
    @media (max-width: 390px) {
     .navbar{
@@ -278,9 +280,7 @@ height: 250px;
     max-width: 390px;
     height: 400px;
   }
-  .left-p p{
-    margin: 10px -238px 10px 13px;
-  }
+  
    }
    @media (max-width: 320px) {
     .image-items img{
@@ -366,9 +366,7 @@ height: 250px;
     max-width: 320px;
     height: 400px;
   }
-  .left-p p{
-    margin: 10px -156px 10px 47px;
-  }
+
    }
 
 
@@ -782,12 +780,12 @@ cursor: pointer;
       .footer-container{
         background-color: black;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: auto;
         width: 100%;
         height: 183px;
-        gap: 10rem;
+        
       }
       .left-p{
         color: white;
