@@ -205,7 +205,7 @@ height: 250px;
 
  }
        .right-i ul{
-           max-width:428px;
+           width:428px;
    }
    @media (max-width: 390px) {
     .navbar{
