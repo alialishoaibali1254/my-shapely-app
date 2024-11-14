@@ -204,6 +204,8 @@ height: 250px;
   flex-direction: column;
 
  }
+       .right-i{
+           max-width:428px;
    }
    @media (max-width: 390px) {
     .navbar{
