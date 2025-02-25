@@ -9,77 +9,92 @@
   </head>
   <body>
    
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shapely Demo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbas">
-              <li class="nav-item">
-                <a class="navs-links active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="navs-links" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="navs-links" href="#">PORTFOLIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="navs-links" href="#">ABOUT THE TEST</a>
-              </li>
-              <li class="nav-item">
-                <a class="navs-links" href="#">Level 1</a>
-              </li>
-              <li class="nav-item">
-                <a class="navs-links" href="#">SHOP</a>
-              </li>
-              <li class="nav-item">
-                <a class="navs-links" href="#"><img src="https://mianmoaz786.github.io/search.png" alt=""></a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="./src/assets/img/shapely-demo.png" alt="" width="150px" height="100px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#parallax">Parallax</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#limitless">Limitless</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </form>
+            </li>
+          </ul>
         </div>
-      </nav>
-  
-    <section
-      style="background-image: url(https://mianmoaz786.github.io/parrallex-section.jpg) "
-      class="hero-section"
-    >
-      <h1 class="h1">We change everything wordpress</h1>
-      <p class="para-1">
-        this is the only wordpress theme you will ever want to use
-      </p>
-      <div class="butt">
-        <button class="button" type="button">Read more</button>
-        <button class="now" type="button">Download now</button>
       </div>
-    </section>
-    <div class="demo-content">
-      <div class="d-c-left">
+    </nav>
+    
+    <section
+  style="background-image: url(https://mianmoaz786.github.io/parrallex-section.jpg) " 
+  class="hero-section d-flex align-items-center justify-content-center text-center" id="home"
+>
+  <div class="container">
+    <h1 class="h1 text-white display-4">We change everything wordpress</h1>
+    <p class="para-1 text-white lead">This is the only WordPress theme you will ever want to use</p>
+    <div class="butt">
+      <button class="btn btn-primary mx-2" type="button">Read more</button>
+      <button class="btn btn-outline-light mx-2" type="button">Download now</button>
+    </div>
+  </div>
+</section>
+
+<div class="demo-content " id="blog">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <!-- Left side: Image -->
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
         <img
           src="https://mianmoaz786.github.io/macbook-preview-flexible.png"
-          alt=""
-          width="650px"
-          height="452px"
+          alt="Macbook Preview"
+          class="img-fluid"
         />
       </div>
-      <div class="d-v-r-right">
-        <h3>SEO friendly</h3>
+      <!-- Right side: Text & Button -->
+      <div class="col-12 col-md-6">
+        <h3>SEO Friendly</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
           voluptatibus commodi officia fuga a, quos culpa, assumenda iste
           eveniet incidunt id sequi provident quae. Incidunt beatae consequatur
           dignissimos optio et.
         </p>
-        <button id="d-cr-btn">Read more</button>
+        <button id="d-cr-btn" class="btn btn-primary">Read more</button>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="demo-series-container">
-      <div class="demo-series">
-      <div class="g-c-left">
+
+<div class="demo-series-container" id="portfolio">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <!-- Left side: Text and Button -->
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
         <h3 class="h3">Portfolio Section</h3>
         <p class="para-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
@@ -88,146 +103,238 @@
           nemo sunt doloremque quos totam harum incidunt deleniti consequuntur
           voluptates perspiciatis.
         </p>
-        <button id="g-c-btn" type="button">SEE IN SECTION</button>
+        <button id="g-c-btn" type="button" class="btn btn-primary">SEE IN SECTION</button>
       </div>
-      <div class="imae-right">
+
+      <!-- Right side: Image -->
+      <div class="col-12 col-md-6">
         <img
           src="https://mianmoaz786.github.io/flexible-portfolio.png"
-          alt=""
-          width="650px"
+          alt="Portfolio"
+          class="img-fluid"
         />
       </div>
-      </div>
     </div>
-    <div class="parallex-section">
-      <h1>Small Parallax Section</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
-        dicta consequuntur minima sapiente accusamus odio sequi officia
-        repellat, illo quae..
-      </p>
-      <button id="mor-btn" type="button">MORE INFO</button>
-    </div>
-    <div class="limitless-content">
-      <h3>Limitless Options</h3>
-      <div class="1-para">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde numquam
-          laborum facilis illo similique, doloremque voluptate ut odit dolores
-        </p>
-        <p>suscipit natus modi eius hic praesentium quaerat?</p>
-      </div>
-      <button id="deas-btn" type="button">DOWNLOAD NOW</button>
-    </div>
-    <div class="autumn">
-      <img src="https://mianmoaz786.github.io/autumn.jpg" alt="">
+  </div>
+</div>
 
+<div class="parallex-section" id="parallax">
+  <div class="container-fluid text-center">
+    <h1 class="display-4">Small Parallax Section</h1>
+    <p class="lead">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+      dicta consequuntur minima sapiente accusamus odio sequi officia
+      repellat, illo quae..
+    </p>
+    <button id="mor-btn" type="button" class="btn btn-primary">MORE INFO</button>
+  </div>
+</div>
+
+<div class="limitless-content" id="limitless">
+  <div class="container-fluid text-center">
+    <h3 class="display-4">Limitless Options</h3>
+    <div class="1-para mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde numquam
+        laborum facilis illo similique, doloremque voluptate ut odit dolores
+      </p>
+      <p>Suscipit natus modi eius hic praesentium quaerat?</p>
     </div>
-    <div class="black-box">
-      <div class="text-centre">
-    <h3>Our Latest Projects</h3>
-    <p>Here is our latest projects. You'll love them!</p>
+    <button id="deas-btn" type="button" class="btn btn-primary">DOWNLOAD NOW</button>
+  </div>
+</div>
+
+<div class="autumn">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img
+          src="https://mianmoaz786.github.io/autumn.jpg"
+          alt="Autumn"
+          class="img-fluid"
+        />
       </div>
-      <!--card#1-->
-       <div class="image-container">
-        <div class="image-card">
-          <div class="image-items">
-            <img src="https://mianmoaz786.github.io/card-one-image1.jpg
-            " alt=""
-            width="400"
-            height="279">
-          </div>
-          <div class="image-items">
-            <img src="https://mianmoaz786.github.io/card-one-image-two.jpg" alt=""
-            width="400"
-            height="279">
-          </div>
-          <div class="image-items">
-            <img src="https://mianmoaz786.github.io/card-one-image-three.jpg" alt=""
-            width="400"
-            height="279"
-            >
-          </div>  
+    </div>
+  </div>
+</div>
+
+<div class="black-box" id="projects">
+  <div class="container text-center mb-5">
+    <h3>Our Latest Projects</h3>
+    <p>Here are our latest projects. You'll love them!</p>
+  </div>
+
+  <!-- Card Row 1 -->
+  <div class="container">
+    <div class="row">
+      <!-- Card 1 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image1.jpg"
+            alt="Card 1 Image"
+            class="img-fluid"
+          />
         </div>
       </div>
+      <!-- Card 2 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-two.jpg"
+            alt="Card 2 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <!-- Card 3 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-three.jpg"
+            alt="Card 3 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Row 2 -->
+  <div class="container">
+    <div class="row">
+      <!-- Card 4 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items-2">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-eight.jpg"
+            alt="Card 4 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <!-- Card 5 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items-2">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-five.jpg"
+            alt="Card 5 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <!-- Card 6 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items-2">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-six.jpg"
+            alt="Card 6 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card Row 3 -->
+  <div class="container">
+    <div class="row">
+      <!-- Card 7 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items-3">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-ten.jpg"
+            alt="Card 7 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <!-- Card 8 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items-3">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-nine.jpg"
+            alt="Card 8 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+      <!-- Card 9 Image -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="image-items-3">
+          <img
+            src="https://mianmoaz786.github.io/card-one-image-seven.jpg"
+            alt="Card 9 Image"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carousel Container -->
+  <div class="container text-center mt-5">
+    <h1>WHAT OUR CUSTOMERS SAY</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores
+      vero maxime aliquam accusamus! Ducimus, quidem? Inventore expedita dicta
+      dolores perspiciatis recusandae vitae doloribus voluptas temporibus ipsa,
+      modi pariatur repudiandae.
+    </p>
+    <div class="logo-i">
+      <img
+        src="https://mianmoaz786.github.io/carousel-img.jpg"
+        alt="Customer Logo"
+        width="60px"
+      />
+    </div>
+  </div>
+</div>
+
       
-        <div class="image-card-2">
-           <div class="image-items-2">
-             <img src="https://mianmoaz786.github.io/card-one-image-eight.jpg" alt=""
-             width="400"
-             height="279">
-           </div>
-           <div class="image-items-2">
- <img src="https://mianmoaz786.github.io/card-one-image-five.jpg" alt=""
- width="400"
- height="279">
-           </div>
-           <div class="image-items-2">
- <img src="https://mianmoaz786.github.io/card-one-image-six.jpg" alt=""
- width="400"
- height="279">
-           </div>
-          </div>
-          <div class="image-card-3">
-            <div class="image-items-3">
-              <img src="https://mianmoaz786.github.io/card-one-image-ten.jpg" alt=""
-              width="400"
-      height="279" >
-            </div>
-            <div class="image-items-3">
-            <img src="https://mianmoaz786.github.io/card-one-image-nine.jpg" alt=""
-            width="400"
-      height="279" >
-            </div>
-            <div class="image-items-3">
-              <img src="https://mianmoaz786.github.io/card-one-image-seven.jpg" alt=""
-              width="400"
-              height="279">
-            </div>
-          </div> 
-            <div class="carousel-container">
-              <h1>WHAT OUR CUSTOMER SAYS</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi asperiores vero maxime aliquam accusamus! <br>
-                Ducimus, quidem? Inventore expedita dicta dolores perspiciatis recusandae vitae doloribus voluptas
-                temporibus <br> ipsa, modi pariatur repudiandae.</p>
-                <div class="logo-i">
-                  <img src="https://mianmoaz786.github.io/carousel-img.jpg" alt="" width="60px"
-                   >
-                </div>
-            </div>
-             </div>
-      </div>
-      <div class="feedback-box">
-  <h3>Do you like this awesome WordPress theme?
-  </h3>
-  <button>DOWNLOAD NOW</button>
-      </div>
-      <div class="footer-container">
-      <div class="left-p">
+<div class="feedback-box" id="shop">
+  <div class="container text-center">
+    <h3 class="display-4">Do you like this awesome WordPress theme?</h3>
+    <button class="btn btn-primary mt-4">DOWNLOAD NOW</button>
+  </div>
+</div>
+
+<div class="footer-container p-3 ">
+  <div class="container p-3" >
+    <div class="row justify-content-between align-items-center">
+      
+      <!-- Left Text -->
+      <div class="col-12 col-md-6 text-center text-md-left mb-3 mb-md-0">
         <p>Theme by Colorlib Powered by WordPress</p>
       </div>
-      <div class="right-i">
-        <ul>
-          <li>
-            <img src="https://mianmoaz786.github.io/facebook.png" alt="" width="15px" height="15px">
+
+      <!-- Social Media Icons -->
+      <div class="col-12 col-md-6 text-center text-md-right">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <img src="https://mianmoaz786.github.io/facebook.png" alt="Facebook" width="20px" height="20px">
           </li>
-          <li>
-            <img src="https://mianmoaz786.github.io/twitter.png" alt="" width="15px" height="15px">
+          <li class="list-inline-item">
+            <img src="https://mianmoaz786.github.io/twitter.png" alt="Twitter" width="20px" height="20px">
           </li>
-          <li>
-            <img src="https://mianmoaz786.github.io/linkedin-big-logo.png" alt="" width="15px" height="15px">
+          <li class="list-inline-item">
+            <img src="https://mianmoaz786.github.io/linkedin-big-logo.png" alt="LinkedIn" width="20px" height="20px">
           </li>
-          <li>
-            <img src="https://mianmoaz786.github.io/youtube-logo.png" alt="" width="15px" height="15px">
+          <li class="list-inline-item">
+            <img src="https://mianmoaz786.github.io/youtube-logo.png" alt="YouTube" width="20px" height="20px">
           </li>
-          <li>
-            <img src="https://mianmoaz786.github.io/instagram.png" alt="" width="15px" height="15px">
+          <li class="list-inline-item">
+            <img src="https://mianmoaz786.github.io/instagram.png" alt="Instagram" width="20px" height="20px">
           </li>
         </ul>
-        
       </div>
-      </div>
+      
+    </div>
+  </div>
+</div>
 
+
+     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
